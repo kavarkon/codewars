@@ -1,4 +1,4 @@
-package exercise;
+package square.sum;
 
 import java.util.Arrays;
 

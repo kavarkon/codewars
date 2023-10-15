@@ -1,4 +1,4 @@
-package exercise;
+package square.sum;
 
 import org.junit.jupiter.api.Test;
 
