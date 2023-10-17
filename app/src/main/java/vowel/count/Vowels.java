@@ -8,5 +8,6 @@ public class Vowels {
         return (int) Stream.of(str.split(""))
                 .filter(ch -> Arrays.asList("a", "e", "i", "o", "u").contains(ch))
                 .count();
+        //clever solution: str.replaceAll("(?i)[^aeiou]", "").length();
     }
 }
